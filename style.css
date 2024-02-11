@@ -338,15 +338,12 @@ body {
   display: none;
 }
 .button1 {
-  position: relative;
   font-size: var(--typography-sub-heading-regular-size);
   line-height: 125%;
   font-family: var(--typography-sub-heading-regular);
   color: var(--color-white-100);
-  text-align: center;
-  z-index: 1;
-  display: block;
-  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 .darkbuttonprimarytext1 {
   cursor: pointer;
@@ -497,7 +494,7 @@ body {
   flex-direction: row;
   max-width: 100%;
 }
-.group-parent {
+.group-parent{
   flex: 1;
   align-items: center;
   justify-content: center;
