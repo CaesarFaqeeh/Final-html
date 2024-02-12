@@ -259,7 +259,6 @@ body {
   flex-direction: row;
   align-items: flex-start;
   padding: 0 0 var(--padding-7xs);
-  flex-shrink: 0;
 }
 .contentiones,
 .petentium {
@@ -338,12 +337,15 @@ body {
   display: none;
 }
 .button1 {
+  position: relative;
   font-size: var(--typography-sub-heading-regular-size);
   line-height: 125%;
   font-family: var(--typography-sub-heading-regular);
   color: var(--color-white-100);
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  z-index: 1;
+  display: block;
+  margin: auto;
 }
 .darkbuttonprimarytext1 {
   cursor: pointer;
@@ -494,7 +496,7 @@ body {
   flex-direction: row;
   max-width: 100%;
 }
-.group-parent{
+.group-parent {
   flex: 1;
   align-items: center;
   justify-content: center;
